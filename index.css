@@ -1,0 +1,118 @@
+:root {
+    background-color: skyblue;
+    margin-top: 0%;
+    
+}h1 {
+    font-size: 2rem;
+    position:absolute;
+    left: auto;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-left: 25%;
+  }
+
+
+
+.sidebar{
+    height:1260px;
+    width: 60px;
+    background-color: black;
+    transition: width 0.3s;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top:0;
+   
+
+}
+.sidebar:hover{
+    background-color: black;
+    width: 160px;
+    overflow:visible;
+
+}
+
+nav{
+    display: absolute;
+    margin-left: 1rem;
+    height:70vh;
+    min-height: 300px;
+    margin-top: 30%;
+    color: blue;
+    
+}
+nav t{
+    width: 60px;
+    padding: 10px 2px;
+    border-radius: 5px 2px;
+    background-color: white;
+    border: 1px solid blue;
+    
+}
+ul{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    height: 70px;
+    width:85px;
+    background-color:blue;
+    border-radius: 20px 10px;
+    
+    
+}
+li a{
+    height: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: underline overline black;
+    padding: 10px 0;
+    color: black;
+    background-color: white;
+    border-radius: 20px 10px;
+    margin-top: 5%;
+    
+}
+
+li a:hover{
+   
+    background-image: none;
+    color:blue;
+    font-weight: bolder;
+    text-decoration: underline overline blue;
+    
+}
+
+i.LinkStuff{
+    font-size: 15px;
+    text-align: right;
+    justify-content: space-around;
+
+}
+
+li p{
+    width: 75px;
+    font-size:14px;
+    text-align: left;
+    
+    font-weight:400;
+}
+
+img {
+    width: 50%;
+    height: 30%;
+    object-fit: contain;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 30%;
+    border-radius: 50%;
+    
+    left: 45%;
+    box-shadow: 5px 5px 15px 3px grey;
+  }

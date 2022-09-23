@@ -1,0 +1,117 @@
+:root {
+    background-color: skyblue;
+    margin-top: 0%;
+    
+}h1 {
+    font-size: 2rem;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 2.5%;
+  }
+
+.div{
+  background-color: white;
+  border-radius: 50px 20px;
+  font-size: 1.75rem;
+  text-align: right;
+}
+.divV2{
+  background-color: white;
+  border-radius: 50px 20px;
+  font-size: 1.75rem;
+  text-align: left;
+}
+
+  #div1 {
+    z-index: 1;
+    position: static;
+    width: 90%;
+    height: 50rem;
+    border: 1px dashed black;
+    margin-top: 8.5% ;
+    background-color: white;
+    color:black;    
+  }
+  #div2 {
+    z-index: 2;
+    position: absolute;
+    margin-top: 6%;
+    top: 2px;
+    color: white;
+    background-color: BLACK;
+    width: 90%;
+    height: 3.5rem;
+    border: .5px dotted white;
+ 
+    
+  }
+  .butt {
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    font-size: 1rem;
+    padding: 0.3rem ;
+    width: 5rem;
+   text-align: center;
+    border: 0.1rem solid #fffcfc;
+    margin-top: 0.5rem;
+    text-decoration: underline wavy;
+    color: white;
+    background-color: black;
+  }
+  
+  .butt:hover {
+    background-color: wheat ;
+    color: black;
+    border: 0.2rem solid white;
+   
+  }
+  .butt2 {
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    font-size: 1rem;
+    padding: 0.3rem ;
+    width: 5rem;
+   text-align: center;
+    border: 0.1rem solid #fffcfc;
+    margin-top: 0.5rem;
+    text-decoration: underline wavy;
+    color: #333;
+    background-color: rgb(255, 232, 23);
+  }
+
+
+#textintro{
+z-index: 4;
+  background-color: black;
+  font-size: 1.2rem;
+  border-radius: 50px 20px;
+  height: fit-content;
+  width: 80%;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+
+
+
+  .containerting {
+    right: 200px; 
+  }
+  
+  img {
+    width: 40%;
+    height: 30%;
+    object-fit: contain;
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 50%;
+    
+    left: 45%;
+
+  }
+  

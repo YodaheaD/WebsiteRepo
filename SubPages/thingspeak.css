@@ -1,0 +1,38 @@
+:root{
+    background-color: skyblue;
+}
+
+h1{
+    background-color: white;
+    height: 30%;
+    width: 85%;
+
+}
+h2{
+    font-weight: 400;
+}
+.ThgSpkContainer{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    margin: 5px 5px 5px 5px;
+   
+    
+}
+
+.butt {
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 1rem;
+    padding: 0.3rem ;
+    width: 5rem;
+   text-align: center;
+    border: 0.1rem solid #fffcfc;
+    margin-top: 0.5rem;
+    text-decoration: underline wavy;
+    color: white;
+    background-color: black;
+  }
+
